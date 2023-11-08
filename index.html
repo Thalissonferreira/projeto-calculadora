@@ -16,36 +16,36 @@
 
         <div class="calculadora">
             <h2 class="subtitulo"> CALCULADORA</h2>
-            <P id="res">resultado</P>
+            <P id="res"></P>
             <table>
                 <tr>
-                    <th><button class="tecla" >C</button></th>
-                    <th><button class="tecla"><</button></th>
-                    <th><button class="tecla">/</button></th>
-                    <th><button class="tecla">X</button></th>
+                    <th><button class="tecla"  onclick="limpar('')">C</button></th>
+                    <th><button class="tecla" onclick="deletar('')"><</button></th>
+                    <th><button class="tecla"onclick="enserir('/')">/</button></th>
+                    <th><button class="tecla" onclick="enserir('*')">X</button></th>
                     
                 </tr>
                 <tr>
-                    <th><button class="tecla">7</button></th>
-                    <th><button class="tecla">8</button></th>
-                    <th><button class="tecla">9</button></th>
-                    <th><button class="tecla">-</button></th>
+                    <th><button class="tecla" onclick="enserir('7')">7</button></th>
+                    <th><button class="tecla" onclick="enserir('8')">8</button></th>
+                    <th><button class="tecla" onclick="enserir('9')">9</button></th>
+                    <th><button class="tecla" onclick="enserir('-')">-</button></th>
                 </tr>
                 <tr>
-                    <th><button class="tecla">4</button></th>
-                    <th><button class="tecla">5</button></th>
-                    <th><button class="tecla">6</button></th>
-                    <th><button class="tecla">+</button></th>
+                    <th><button class="tecla" onclick="enserir('4')">4</button></th>
+                    <th><button class="tecla" onclick="enserir('5')">5</button></th>
+                    <th><button class="tecla" onclick="enserir('6')">6</button></th>
+                    <th><button class="tecla" onclick="enserir('+')">+</button></th>
                 </tr>
                 <tr>
-                    <th><button class="tecla">1</button></th>
-                    <th><button class="tecla">2</button></th>
-                    <th><button class="tecla">3</button></th>
-                    <th rowspan="2"><button class="igual">=</button></th>
+                    <th><button class="tecla" onclick="enserir('1')">1</button></th>
+                    <th><button class="tecla" onclick="enserir('2')">2</button></th>
+                    <th><button class="tecla" onclick="enserir('3')">3</button></th>
+                    <th rowspan="2"><button class="igual" onclick="resolver('')">=</button></th>
                 </tr>
                 <tr>
-                    <th colspan="2"><button class="zero">0</button></th>
-                    <th><button class="tecla">.</button></th>
+                    <th colspan="2"><button class="zero" onclick="enserir('0')">0</button></th>
+                    <th><button class="tecla" onclick="enserir('.')">.</button></th>
                 </tr>
             </table>
         </div>

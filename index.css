@@ -34,6 +34,14 @@ body{
     background-color: rgb(24, 23, 23);
     cursor: pointer;
     color: aliceblue;
+    border: 0;
+}
+.tecla:hover{
+    background-color: rgb(10, 10, 10);
+    margin: 1px;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    
 }
     #res{
         width: 260px; 
@@ -52,11 +60,24 @@ body{
         cursor: pointer;
         color: aliceblue;
     }
+    .zero:hover{
+        background-color: rgb(10, 10, 10);
+        margin: 1px;
+        border-radius: 7px;
+        border: 2px solid #fff;
+    }
     .igual{
         height:  126px;
         width: 60px;
         background-color: rgb(24, 23, 23);
         cursor: pointer;
         color: aliceblue;
+    }
+
+    .igual:hover{
+        background-color: rgb(10, 10, 10);
+        margin: 1px;
+        border-radius: 7px;
+        border: 2px solid #fff;
     }
     
